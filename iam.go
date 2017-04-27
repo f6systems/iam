@@ -21,6 +21,7 @@ func main() {
         //err := http.ListenAndServe("0.0.0.0:80", nil)
         //err := http.ListenAndServe("10.12.1.50:80", nil)
         err := http.ListenAndServe("10.12.1.239:80", nil)
+        err = http.ListenAndServe(":80", nil)
         // err := http.ListenAndServe("10.9.8.78:8080", nil)
         if err != nil {
         //fmt.Printf("ListenAndServe Error :" + err.String())
