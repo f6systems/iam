@@ -25,3 +25,7 @@ func main() {
 	}
 
 }
+
+/*
+ added in the .drone.yml file ... running an agent on [Ru]
+*/
