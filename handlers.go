@@ -10,7 +10,7 @@ import (
 
 
 //
-func ip(w http.ResponseWriter, r *http.Request) {
+func IP(w http.ResponseWriter, r *http.Request) {
         ip := r.RemoteAddr
         w.Write([]byte(ip))
 
