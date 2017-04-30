@@ -3,6 +3,6 @@ pipeline:
   image: golang
   commands:
           - go get
-          - go build
-          - go test
+          - go build -v
+          - go test -v
 
