@@ -1,8 +1,13 @@
-pipeline: 
- build:
-  image: golang
-  commands:
-          - go get
-          - go build -v
-          - go test -v
+workspace:
+        base: /drone
+        path: go
+
+pipeline:
+        build:
+         image: golang
+         commands:
+                - go get github.com/f6systems/iam
+                - go build -v
+                - go test -v
+
 
