@@ -1,6 +1,6 @@
 workspace:
-        base: /drone
-        path: go
+        base: /go
+        path: src/github.com/f6systems/iam
 
 pipeline:
         build:
