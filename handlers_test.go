@@ -27,7 +27,7 @@ func TestDude (t *testing.T) {
     //if status := rr.Code; status != http.StatusTemporaryRedirect {
         t.Errorf("handler returned wrong status code: got %v want %v", status, http.StatusTemporaryRedirect)
 	}
-        t.Logf("\t[%v] - Dude() tested. Got expected %d = %d.\n","checkMark",http.StatusTemporaryRedirect,rr.Code)
+        t.Logf("\t%v - Dude() tested. Got expected %d = %d.\n","<OKAY>",http.StatusTemporaryRedirect,rr.Code)
 
 }
 //TestDude
@@ -47,7 +47,7 @@ func TestIP (t *testing.T) {
     //if status := rr.Code; status != http.StatusTemporaryRedirect {
         t.Errorf("handler returned wrong status code: got %v want %v", status, http.StatusTemporaryRedirect)
         }
-        t.Logf("\t[%v] - IP() tested. Got expected %d = %d.\n","checkMark",http.StatusTemporaryRedirect,rr.Code)
+        t.Logf("\t%v - IP() tested. Got expected %d = %d.\n","<OKAY>",http.StatusTemporaryRedirect,rr.Code)
 
 }
 
