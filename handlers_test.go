@@ -10,7 +10,7 @@ import (
 
 //TestDude
 func TestDude (t *testing.T) {
-	log.Printf("[TestDude] - Starting test.\n")
+	log.Printf("[TestDude] - Starting test. (to run via drone server)\n")
 	        req := httptest.NewRequest("GET","http://sc.ipcloud.com",nil)
 
        //create a ResponseRecorder to record the response
