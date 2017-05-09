@@ -1,5 +1,8 @@
 # iam A resource to check on the different states of a specific person
+<a href="http://ru.ipcloud.net:4040/f6systems/iam"><img src="http://ru.ipcloud.net:4040/api/badges/f6systems/iam/status.svg"/></a>
+
 //TODO:(hopley) - expand
+
 # iam
 
 * Golang
