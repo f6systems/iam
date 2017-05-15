@@ -15,7 +15,9 @@
 
   TODO:(hopley)
    - iam_test.go //tests 
-   - drone for f6systems (on [Ru] ?) 
+
+odot:(hopley)
+   \. drone for f6systems (on [Ru] ?) 
 
 
 
